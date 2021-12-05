@@ -14,6 +14,7 @@ public class Practice_cat_dog {
         animals.add(new Dog("Tuzik"));
         animals.add(new Cat("Vasya"));
 
+
         for (Animal animal : animals) {
             animal.sound();
             // expected: I'am a Doc. My name is Tuzik. Gav
